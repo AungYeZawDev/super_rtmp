@@ -6,7 +6,6 @@ import io.flutter.embedding.engine.plugins.FlutterPlugin.FlutterPluginBinding
 import io.flutter.embedding.engine.plugins.activity.ActivityAware
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding
 
-/** 插件入口 */
 class VideoPlayerRtmpExtPlugin: FlutterPlugin,ActivityAware {
 
   private lateinit var flutterPluginBinding: FlutterPluginBinding

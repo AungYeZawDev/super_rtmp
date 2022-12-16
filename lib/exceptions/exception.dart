@@ -1,5 +1,3 @@
-
-
 class InitException extends Error {
 
   final String msg;
