@@ -16,7 +16,6 @@ typedef ViewCreated = void Function(IJKPlayerController controller);
 
 typedef CallUI = void Function();
 
-///小部件
 class VideoPlayerRtmpExtWidget extends StatefulWidget {
   final IJKPlayerController controller;
   final Widget? initWidget;

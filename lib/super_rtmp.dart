@@ -19,11 +19,6 @@ class SuperRtmp {
  late final channel = MethodChannelSuperRtmp(viewId: viewId);
  late final eventChanel = EventChannel('video-player-rtmp-ext-event-$viewId');
 
-
-
-
-
- ///初始化
  Future<void> init() async {
    try{
      await channel.init();

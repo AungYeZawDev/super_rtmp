@@ -1,7 +1,6 @@
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 import 'package:super_rtmp/models/android_play_manager.dart';
-
-import 'super_rtmp_method_channel.dart';
+import 'package:super_rtmp/super_rtmp_method_channel.dart';
 
 abstract class SuperRtmpPlatform extends PlatformInterface {
   /// Constructs a SuperRtmpPlatform.
